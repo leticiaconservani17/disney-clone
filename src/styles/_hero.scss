@@ -1,0 +1,61 @@
+@import 'variables.scss';
+
+
+.hero {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    padding: 5.6vw;
+    position: relative;
+    background-image: url(../images/hero_desktop.jpeg);
+    background-size: cover;
+
+    &__content {
+        max-width: 640px;
+
+        &__branding  {
+            max-width: 320px;
+            margin: 0;
+        }
+
+        .title--big {
+            margin-top: 16px ;
+        }
+
+        p{
+            margin-top: 24px;
+
+            &:last-child {
+                margin-top: 20px;
+            }
+        }
+
+        &__combos {
+
+            display: flex;
+            justify-content: space-between;
+
+            &__combo {
+
+                width: calc(50% - 12px);
+
+                button{
+                    border: none;
+                    display: block;
+                    width: 100%;
+                    height: 60px;
+                    font-size: 18px;
+                    color: $corSecundariaDeTexto;
+                    background-color: $corBotaoPrincipal;
+                    border-radius: 7px;
+                    margin-top: 20px;
+                    margin-bottom: 8px;
+                    text-align: center;
+                }
+
+            }
+
+        }
+    }
+}
