@@ -51,8 +51,14 @@
                     margin-top: 20px;
                     margin-bottom: 8px;
                     text-align: center;
+                    cursor: pointer;
+                }
+                
+                button:hover{
+                    background-color: $corBotaoPrincipalHover;
                 }
             }
+            
         }
 
         &__scroll--button {

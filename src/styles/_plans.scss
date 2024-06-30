@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .plans {
     background-position: 50%;
     background-repeat: no-repeat;
@@ -39,7 +41,7 @@
                 flex-direction: row;
                 width: 100%;
                 position: sticky;
-                top: 20px;
+                top: 0px;
                 z-index: 10;
 
                 &--feature{
@@ -80,7 +82,7 @@
                         width: 100%;
                         
                         &--button{
-                            background: #02d6e8;
+                            background-color: $corBotaoPrincipal;
                             border: none;
                             color: #02172a;
                             align-items: center;
@@ -97,6 +99,10 @@
                             text-decoration: none;
                             text-transform: uppercase;
                             width: 100%;
+                        }
+
+                        &--button:hover{
+                            background-color: $corBotaoPrincipalHover ;
                         }
 
                         :first-child {
