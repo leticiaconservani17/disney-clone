@@ -1,15 +1,25 @@
 @use 'hero';
+@use 'shows';
+@use 'plans';
+@use 'productions';
+@use 'platforms';
+@use 'FAQ';
+@use 'footer';
+@use 'header';
 
 @import 'variables.scss';
 @import 'reset.scss';
 @import 'mixing.scss';
 @import '_fonts.scss';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $corDeFundo;
     font-family: Avenir, sans-serif;
 }
-
 .text--big {
     @include text(18px);
 }

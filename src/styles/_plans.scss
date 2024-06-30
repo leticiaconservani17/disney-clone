@@ -1,0 +1,274 @@
+.plans {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5.6vw;
+
+    &__content {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 16px;
+        margin: 20px 0 0;
+    }
+
+    .tabela-comparacao{
+        max-width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__container{
+            display: grid;
+            padding-top: 84px;
+            top: 10px;
+
+            &__header{
+
+                align-items: stretch;
+                background-color: #040714;
+                border-bottom: 1px solid #f9f9f9;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                position: sticky;
+                top: 20px;
+                z-index: 10;
+
+                &--feature{
+                    width: 42%;
+                }
+
+                &--center{
+                    order: 0;
+                    width: 29%;
+                    border-top: 2px solid hsla(0, 0%, 100%, .1);
+                    align-items: center;
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 12px;
+                    position: relative;
+                    text-align: center;
+
+                    img {
+                        display: block;
+                        height: auto;
+                        width: 100px;
+                    }
+
+
+                    .text--big{
+                        color: #f9f9f9;
+                        font-weight: 700;
+                        line-height: 1.2;
+                        margin-bottom: 0;
+                        margin-top: 24px;
+                    }
+
+                    &__footer {
+                        margin: 12px 0 0;
+                        text-align: center;
+                        width: 100%;
+                        
+                        &--button{
+                            background: #02d6e8;
+                            border: none;
+                            color: #02172a;
+                            align-items: center;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                            display: inline-flex;
+                            justify-content: center;
+                            text-align: center;
+                            transition: all .2s ease 0s;
+                            vertical-align: middle;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                            width: 100%;
+                        }
+
+                        :first-child {
+                            margin-top: 0;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            height: 60px;
+                            padding: 0 24px;
+                            max-width: 360px;
+                        }
+
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+
+                    }
+                }
+
+                &--left {
+                    order: 1;
+                    padding-top: 20px;
+                    border-top: 2px solid hsla(0, 0%, 100%, .1);
+                    background-color: #1d1f2b;
+                    align-items: center;
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 12px;
+                    position: relative;
+                    text-align: center;
+
+                    .badge {
+                        color: #136878;
+                        margin-top: 0;
+                        background-color: #f9f9f9;
+                        border-radius: 20px;
+                        display: inline-flex;
+                        font-weight: 700;
+                        padding: 5px 12px;
+                        position: absolute;
+                        text-align: center;
+                        top: -15px;
+                        font-size: 12px;
+                    }
+
+                    img {
+                        margin-top: 24px;
+                        display: block;
+                        height: auto;
+                        width: 100px;
+                    }
+
+
+                    .text--big{
+                        color: #f9f9f9;
+                        font-weight: 700;
+                        line-height: 1.2;
+                        margin-bottom: 0;
+                        margin-top: 24px;
+                    }
+
+                    &__footer {
+                        margin: 12px 0 0;
+                        text-align: center;
+                        width: 100%;
+                        
+                        :first-child {
+                            margin-top: 0;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            height: 60px;
+                            padding: 0 24px;
+                            max-width: 360px;
+                        }
+
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+            &__service{
+                border-bottom: 1px solid hsla(0, 0%, 75%, .3);
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+
+                &--item{
+                    align-items: center;
+                    display: flex;
+                    text-align: left;
+                    width: 42%;
+                    align-items: center;
+
+                    .text{
+                        margin:0
+                    }
+                }
+
+                &--feature-item{
+                    order: 0;
+                    width: 29%;
+                    align-items: center;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex: 1;
+                    padding: 33px 8px;
+                    text-align: center;
+                    justify-content: center;
+
+                    .text {
+                        margin: 0;
+                    }
+
+                    &__img {
+                    background-image: url(../images/original.svg);
+                    width: 100%;
+                    height: 20px;
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: 21px;
+                    }
+
+                    &__min-img {
+                        background-image: url(https://cnbl-cdn.bamgrid.com/assets/9d8d466c67cf56386ce216b719eae8b51a3d7be8f28dd2e49afc2b58cfdfd877/original);
+                        width: 100%;
+                        height: 20px;
+                        background-position: 50%;
+                        background-repeat: no-repeat;
+                        background-size: 37px;
+                    }
+
+                    
+                }
+
+                &--feature-item-highlight{
+                    order: 1;
+                    background-color: #1d1f2b;
+                    align-items: center;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex: 1;
+                    padding: 33px 8px;
+                    text-align: center;
+                    justify-content: center;
+
+                    .text {
+                        margin: 0;
+                    }
+
+                }
+
+            }
+
+        }
+        &__footer {
+            p {
+                margin: 24px 0 0;
+            }
+        }
+
+    }
+}

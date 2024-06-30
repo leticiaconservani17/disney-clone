@@ -1,0 +1,70 @@
+@import 'variables.scss';
+
+.header {
+    position: relative;
+    top: 0;
+    z-index: 5;
+
+    nav {
+        background-color: transparent;
+        opacity: 1;
+        pointer-events: auto; // Corrigido
+        z-index: 3;
+        align-items: center;
+        display: flex;
+        height: 70px;
+        left: 0;
+        padding: 0 36px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translateZ(0);
+        transition: opacity 0.5s ease-out;
+        z-index: 4;
+
+        ul {
+            justify-content: flex-end;
+            align-items: center;
+            display: flex;
+            list-style-type: none;
+            margin-left: 0;
+            padding-left: 0;
+            text-indent: 0;
+            width: 100%;
+
+            li {
+                display: inline-block;
+
+                a {
+                    cursor: pointer;
+                    pointer-events: auto; // Corrigido
+                }
+
+                span {
+                    border: 1px solid $corPrincialDeTexto;
+                    color: $corSecundariaDeTexto;
+                    align-items: center;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    display: inline-flex;
+                    justify-content: center;
+                    text-align: center;
+                    transition: all 0.2s ease 0s;
+                    vertical-align: middle;
+                    height: 50px;
+                    max-width: none;
+                    width: 108px;
+                    padding: 8px 14px;
+                    margin: 5px;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+
+                span:hover {
+                    background-color: $corSecundariaDeTexto;
+                    color: $corTextoBotao;
+                }
+            }
+        }
+    }
+}

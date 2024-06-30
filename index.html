@@ -7,9 +7,22 @@
     <link rel="stylesheet" href="build/styles/main.css">
 </head>
 <body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li>
+                    <a type="link" href="">
+                        <span>
+                            ENTRAR
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1  class="hero__content__branding">
+            <h1 class="hero__content__branding">
                 <img src="./build/images/disneyplus.png" style="max-width: 200px;" alt="Disney+ logo">
             </h1>
             <h3 class="title--big">
@@ -20,14 +33,14 @@
             </p>
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
-                    <button>
-                        DISNEY+ PADRÃO
-                    </button>
+                        <button>
+                            DISNEY+ PADRÃO
+                        </button>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <button>
-                        DISNEY+ PREMIUM
-                    </button>
+                        <button>
+                            DISNEY+ PREMIUM
+                        </button>
                 </li>
             </ul>
             <p class="text" style="line-height: 24px;">
@@ -37,14 +50,301 @@
                 Confira os detalhes dos planos
             </p>
 
-            <button class="hero__content__scroll--button" type="button">
+            <a href="#shows" class="hero__content__scroll--button">
                 <span class="hero__content__scroll--button__hint">
                     <img class="hero__content__scroll--button__hint__down" src="./src/images/arrow-19_90880.svg" alt="">
                 </span>
-            </button>
-            
+            </a>
+        </div>
+    </section>
+
+    <section class="shows" id="shows">
+        <div class="shows__content">
+            <p class="title--small">
+                Os melhores filmes e séries do Star e esportes com a ESPN
+            </p>
+            <p class="text">
+                Estreias de filmes, clássicos, sagas, comédias animadas e produções originais do Star, além de esportes e programação ao vivo com a ESPN.
+            </p>
+        </div>
+    </section>
+
+    <section class="plans">
+        <div class="plans__content">
+            <h2 class="title--big">
+                Que plano você vai escolher?
+            </h2>
+            <p class="text">
+                Você pode alterar ou cancelar seu plano quando quiser.
+            </p>
+
+            <section class="tabela-comparacao">
+                <div class="tabela-comparacao__container">
+                    <div class="tabela-comparacao__container__header">
+                        <div class="tabela-comparacao__container__header--feature"></div>
+                        <div class="tabela-comparacao__container__header--center">
+                            <img src="./src/images/disneyplus.png" alt="">
+                            <h6 class="text--big">
+                                Padrão
+                            </h6>
+                            <div class="tabela-comparacao__container__header--center__footer">
+                                <a href="" class="tabela-comparacao__container__header--center__footer--button">
+                                    <span>R$ 43,90/mês**</span>
+                                </a>
+                                <p class="text">
+                                    (inclui impostos)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabela-comparacao__container__header--left">
+                            <div class="badge">
+                                Mais Popular
+                            </div>
+                            <img src="./src/images/disneyplus.png" alt="">
+                            <h6 class="text--big">
+                                Premium
+                            </h6>
+                            <div class="tabela-comparacao__container__header--center__footer">
+                                <a href="" class="tabela-comparacao__container__header--center__footer--button">
+                                    <span>R$ 62,90/mês**</span>
+                                </a>
+                                <p class="text">
+                                    (inclui impostos)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabela-comparacao__container__service">
+                        <div class="tabela-comparacao__container__service--item">
+                            <p class="text">
+                                Esportes com a ESPN*
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item">
+                            <p class="text">
+                                Seleção de canais da ESPN (ESPN e ESPN3)
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item-highlight">
+                            <p class="text">
+                                Todos os canais da ESPN, torneios exclusivos e mais de 500 eventos esportivos por mês
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tabela-comparacao__container__service">
+                        <div class="tabela-comparacao__container__service--item">
+                            <p class="text">
+                                Estreias de filmes, séries originais e clássicos da Disney, Pixar, Marvel, Star Wars, National Geographic e Star
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item">
+                            <div class="tabela-comparacao__container__service--feature-item__img"></div>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item-highlight">
+                            <div class="tabela-comparacao__container__service--feature-item__img"></div>
+                        </div>
+                    </div>
+                    <div class="tabela-comparacao__container__service">
+                        <div class="tabela-comparacao__container__service--item">
+                            <p class="text">
+                                Vídeo até 4K UHD/HDR e som Dolby Atmos***
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item">
+                            <div class="tabela-comparacao__container__service--feature-item__min-img"></div>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item-highlight">
+                            <div class="tabela-comparacao__container__service--feature-item__img"></div>
+                        </div>
+                    </div>
+                    <div class="tabela-comparacao__container__service">
+                        <div class="tabela-comparacao__container__service--item">
+                            <p class="text">
+                                Dispositivos simultâneos
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item">
+                            <p class="text">2</p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item-highlight">
+                            <p class="text">4</p>
+                        </div>
+                    </div>
+                    <div class="tabela-comparacao__container__service">
+                        <div class="tabela-comparacao__container__service--item">
+                            <p class="text">
+                                Downloads para assistir aos seus favoritos offline e sem demora
+                            </p>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item">
+                            <div class="tabela-comparacao__container__service--feature-item__img"></div>
+                        </div>
+                        <div class="tabela-comparacao__container__service--feature-item-highlight">
+                            <div class="tabela-comparacao__container__service--feature-item__img"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabela-comparacao__footer">
+                    <p>
+                        <span class="text--small">
+                            * As transmissões ao vivo de esportes e outros eventos contêm anúncios, independente do plano escolhido.
+                        </span>
+                        <br>
+                        <span class="text--small">
+                            ** O preço pode variar caso a assinatura seja feita através de outras plataformas. Empresas parceiras podem cobrar taxas adicionais.
+                        </span>
+                        <br>
+                        <span class="text--small">
+                            *** A qualidade de vídeo e áudio e os downloads estão sujeitos ao serviço de internet, aos recursos do dispositivo, ao tipo de conteúdo e ao plano.
+                        </span>
+                        <br>
+                    </p>
+                </div>
+            </section>
             
         </div>
     </section>
+
+    <section class="productions">
+        <div class="productions__container">
+            <p class="text--big">
+                Só no Disney+
+            </p>
+            <p class="text">
+                As melhores produções originais e exclusivas!
+            </p>
+        </div>
+    </section>
+
+    <section class="platforms">
+        <p class="text--big">
+            Quando e onde quiser
+        </p>
+        <p class="text">
+            Aproveite seus favoritos em qualquer momento, em qualquer lugar.
+        </p>
+        <img src="https://cnbl-cdn.bamgrid.com/assets/aa3a563e260b8f23c8278f1f772c69e300b6275e6319834309b1a49fedb23801/original" class="platforms__img" alt="">
+    </section>
+
+    <section class="FAQ">
+        <h2 class="text--big">
+            Perguntas Frequentes
+        </h2>
+        <div class="pergunta">
+            <button class="pergunta__button" >
+                <span class="pergunta__button__span">
+                    O que está incluído no Disney+?
+                </span>
+            </button>
+            <div class="pergunta__resposta">
+                <p class="text">
+                    Benefícios de assinar o Disney+:
+                </p>
+                <ul class="text">
+                    <li>
+                        <p>
+                            <span class="text"> Estreias de filmes, séries originais e clássicos da Disney, Pixar, Marvel, Star Wars, National Geographic e Star.</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="text">  Os torneios mais importantes do mundo e programas da ESPN ao vivo. </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="text">  Até quatro telas ao mesmo tempo com o Disney+ Premium, e até duas com o Disney+ Padrão. </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="text"> Downloads, criação de perfis e controle parental para personalizar a experiência por idade, de acordo com o seu plano. </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pergunta">
+            <button class="pergunta__button">
+                <span class="pergunta__button__span">
+                    Quais formas de pagamento posso utilizar?
+                </span>
+            </button>
+            <div class="pergunta__resposta">
+                <p class="text">
+                    Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple, Mercado Livre e provedores locais de TV, telefonia e internet.
+                </p>
+            </div>
+        </div>
+        <div class="pergunta">
+            <button class="pergunta__button" >
+                <span class="pergunta__button__span">
+                    Onde posso assistir ao Disney+?
+                </span>
+            </button>
+            <div class="pergunta__resposta">
+                <p class="text">
+                    <span>
+                        O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames, decodificadores e smart TVs. Confira a  
+                    </span>
+                    <span class="link-text">
+                        lista completa de dispositivos compatíveis na Central de Ajuda
+                    </span>  
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container--img">
+                <img src="//cnbl-cdn.bamgrid.com/assets/478bf74ef5ffc184e7c96808eef869a4ca967cbcc5a8db8f7e3c4005d93bbfd5/original" width="6526" height="3679" alt="Disney+ Logo" loading="lazy">
+            </div>
+            <ul class="footer__container--list">
+                <li class="footer__container--list-item">
+                    <span class="footer__container--list-item__language">
+                        <label for="language-selector" class="footer__container--list-item__language-label">Languages</label>
+                        <select id="language-selector">
+                            <option value="/en-br">English</option>
+                            <option value="pt-br" selected>Português</option>
+                        </select>
+                        <img class="footer__container--list-item__language-globe" src="./src/images/globe-1-svgrepo-com.svg" alt="">
+                        <img class="footer__container--list-item__language-markDown" src="./src/images/arrow-19_90880.svg" alt="">
+                    </span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Termos e Condições de Uso</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Política de privacidade</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Proteção de Dados no Brasil</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Anúncios personalizados</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Dispositivos compatíveis</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Ajuda</span>
+                </li>
+                <li class="footer__container--list-item">
+                    <span class="link-text">Sobre o Disney+</span>
+                </li>
+            </ul>
+            <p class="text-small">
+                © 2024 Disney e suas empresas afiliadas. Todos os direitos reservados.
+                <br>
+                A programação do conteúdo esportivo varia de acordo com o plano. Para usar o Disney+, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
+                <br>
+                <br>
+                O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>
+    
+    <script src="./build/scripts/FAQ.js"></script>
 </body>
 </html>

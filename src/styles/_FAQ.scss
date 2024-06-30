@@ -1,0 +1,111 @@
+.FAQ{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5.6vw;
+    position: relative;
+    text-align: center;
+
+    :first-child{
+        margin-top: 0;
+    }
+
+    .text--big{
+        font-size: 40px;
+        color: #f9f9f9;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .pergunta{
+        background-color: #13151d;
+        box-sizing: border-box;
+        margin-top: 16px;
+        text-align: left;
+        width: 100%;
+
+        &__button{
+            background: 0 0;
+            border: none;
+            cursor: pointer;
+            margin: 0;
+            padding: 24px;
+            text-align: inherit;
+            width: 100%;
+            font-size: 20px;
+            color: #f9f9f9;
+            font-weight: 700;
+            line-height: 1.2;
+            position: relative;
+
+
+            ::after{
+                color: #f9f9f9;
+                content: "+";
+                font-size: 40px;
+                line-height: 0.8;
+                position: absolute;
+                right: 24px;
+                top: calc(50% - 15px); 
+
+            }
+
+
+            &__span{
+                display: inline-block;
+                width: calc(100% - 40px);
+
+                
+            }
+            
+        }
+
+        &__resposta {
+            padding: 0 24px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height, .25s ease;
+            
+            ul{
+                margin-top: 16px;
+                text-align: left;
+                color: silver;
+                padding-inline-start: 40px;
+
+                p{
+                    margin: 20px 0 0;
+                }
+            }
+        }
+
+        &__resposta--aberta{
+                transition: max-height, .25s ease-in-out;
+                max-height: 2500px;
+                padding-bottom: 24px;
+                padding-top: 24px;
+                max-height: 2500px;
+                padding-bottom: 24px;
+    
+                ul{
+                    margin-top: 16px;
+                    text-align: left;
+                    color: silver;
+                    padding-inline-start: 40px;
+    
+                    p{
+                        margin: 20px 0 0;
+                    }
+                }
+
+        }
+
+        &__button--clicado{
+            ::after{
+                content: "–";
+                
+            }
+        }
+
+    }
+}

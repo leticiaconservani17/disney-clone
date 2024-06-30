@@ -1,0 +1,39 @@
+.platforms {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5.6vw;
+    position: relative;
+
+    :first-child{
+        margin-top: 0;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .text--big{
+        font-size: 40px;
+        color: #f9f9f9;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: .16px;
+        line-height: 1.1;
+        margin: 20px 0 0;
+    }
+
+    &__img{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+
+}

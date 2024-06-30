@@ -1,0 +1,46 @@
+.productions {
+
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    padding: 5.6vw;
+    position: relative;
+    background-image: url(../images/production_hero.png);
+    background-size: cover;
+
+    &__container{
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 0;
+        padding-left: 5vw;
+        top: 0;
+        width: 40%;
+        box-sizing: border-box;
+        padding: 20px 2vw 0;
+
+        :first-child {
+            margin-top: 0;
+        }
+
+        .text--big{
+            font-size: 40px;
+            margin-top: 24px;
+            color: #f9f9f9;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .text{
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 24px;
+            margin-bottom: 240px;
+        }
+
+    }
+
+}
+
